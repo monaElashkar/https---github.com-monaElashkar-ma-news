@@ -10,6 +10,6 @@ class RouteKeys{
 class Routes {
  static Map<String, Widget Function(BuildContext)> route={
   RouteKeys.categoriesScreen: (context) => const CategoriesScreen(),
-  RouteKeys.homeScreen: (context) => const HomeScreen(),
+  RouteKeys.homeScreen: (context) =>  HomeScreen(),
  };
 }

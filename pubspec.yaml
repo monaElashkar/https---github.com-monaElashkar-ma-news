@@ -38,6 +38,7 @@ dependencies:
   http: any
   flutter_bloc: ^8.1.6
   bloc: ^8.1.4
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:

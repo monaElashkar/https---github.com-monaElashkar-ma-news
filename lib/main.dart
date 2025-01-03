@@ -1,7 +1,12 @@
+import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/core/route/route_keys.dart';
 
+import 'bloc_obseve.dart';
+
 void main() {
+    Bloc.observer = MyBlocObserver();
+
   runApp(const MyApp());
 }
 
